@@ -1,12 +1,12 @@
 import React from "react";
-import Form from "./Form";
+import Form from "./Form.jsx";
 
-var userIsRegistered = false;
+var userIsRegistered = true;
 
 function App() {
   return (
     <div className="container">
-      <Form />
+      <Form userIsRegistered={userIsRegistered} />
     </div>
   );
 }
